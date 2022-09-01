@@ -15,4 +15,54 @@ h1{
     margin-top: 20px;
     font-family: 'Fredoka One', cursive;
     color: #e3356f;
+    text-shadow: 2px 2px black;
+}
+
+#paragraph { 
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+.card {
+    width: calc((100% - 60px) / 3);
+    height: 90px;
+    background-color: #100E17;
+    float: left;
+    margin: 30px 20px 0 0;
+    box-shadow: 2px 2px 10px  grey;
+}
+
+/* layout della targhetta */
+.targhetta {
+    margin-top: 10px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    display: inline-block;
+}
+.card div {
+    height: 90px;
+    width: 90px;
+    
+}
+.card div img {
+    width: 100%;
+}
+.foto {
+    display: inline-block;
+}
+.descrizione {
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    padding: 6px;
+}
+.occupazione {
+    padding-top: 5px;
+}
+.mail {
+    color: #40c2ed;
 }
