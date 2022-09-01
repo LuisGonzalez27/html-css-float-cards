@@ -8,6 +8,7 @@
 .container{
     margin: auto;
     width: 80%;
+    min-width: 1200px;
 }
 
 h1{
@@ -42,6 +43,7 @@ h3 {
     color: white;
     font-family: 'Fredoka One', cursive;
     display: inline-block;
+    padding-top: 5px;
 }
 .card div {
     height: 90px;
